@@ -10,7 +10,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-info bg-opacity-50">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">Latitude Visualizations</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/cloudiness.html">Latitude vs. Cloudiness</a></li>
                             <li><a class="dropdown-item" href="/humidity.html">Latitude vs. Humidity</a></li>
-                            <li><a class="dropdown-item" href="/temperature.html">Latitude vs. Temperature</a></li>
+                            <li><a class="dropdown-item" href="/temperature.html">Latitude vs. Max Temperature</a></li>
                             <li><a class="dropdown-item" href="/wind.html">Latitude vs. Wind Speed</a></li>
                         </ul>
                     </li>
@@ -42,14 +42,14 @@
 
     <div class="container">
         <div class = "row">
-            <div class = "box col-6">
+            <div class = "box col-md-6 col-xs-12">
                 <h2>Summary: Latitude Scatter Plots.</h2>
                 <img src="/assets/images/Fig1.png" width=50% align="left" alt="Latitude and Temperature Scatter Plot">
-                <p>The purpose of this assignment was to analyze the relationship between a city's latitude and its weather. We pulled a list of hundreds of cities randomly from a geographical API. We then used a weather API to pull a variety of weather data for each city, including temperature, humidity, cloudiness, and wind speed.</p>
+                <p>The purpose of this assignment was to analyze the relationship between a city's latitude and its weather. We pulled a list of hundreds of cities randomly from a geographical API. We then used a weather API to pull a variety of weather data for each city, including maximum temperature, humidity, cloudiness, and wind speed.</p>
                 <p>We created a scatter plot for each kind of weather data. We discovered that while temperature was strongly correlated with latitude, none of the other kinds of data displayed a clear correlation. We concluded that latitude has a strong impact on temperature, but little or no influence on humidity, cloudiness, or wind speed.</p>
             </div>
-            <div class = "box col-4">
-                <h2>Visualizations.</p>
+            <div class = "box col-md-4 col-xs-8">
+                <h2>Visualizations</p>
                     <div class = "row">
                         <div class = "col-6">
                             <a  href="/temperature.html">

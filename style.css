@@ -7,18 +7,37 @@ img {
     max-height: 100%;
 }
 
+.navbar-light {
+    background-color: white;
+    padding: 5px;
+}
+
+.navbar-brand {
+    padding: 10px;
+    background-color: rgb(161, 233, 255);
+}
+
 .box {
-    min-height: 50px;
     padding: 5px;
     margin: 5px;
-    font-weight: 400;
     color: rgb(0, 134, 155);
     background-color: rgb(255, 255, 255);
     text-align: center;
-    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .box p {
       text-align: left;
   }
   
+  .selected {
+      background-color: blue;
+      padding: 2px;
+  }
+
+@media (max-width: 991.98px) {
+    .navbar-light {
+        background-color: rgb(161, 233, 255);
+        padding: 5px;
+    }
+}
